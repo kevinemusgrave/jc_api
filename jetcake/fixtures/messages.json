@@ -1,0 +1,40 @@
+[
+{
+  "model": "api.message",
+  "pk": 1,
+  "fields": {
+    "text": "This is the first message",
+    "author": 1,
+    "parent": null,
+    "date_posted": "2020-03-13T01:34:41.927Z"
+  }
+},
+{
+  "model": "api.message",
+  "pk": 2,
+  "fields": {
+    "text": "This is a reply",
+    "author": 1,
+    "parent": 1,
+    "date_posted": "2020-03-13T01:35:09.626Z"
+  }
+},
+{
+  "model": "api.message",
+  "pk": 3,
+  "fields": {
+    "text": "The second question is here.",
+    "author": 1,
+    "parent": null,
+    "date_posted": "2020-03-13T01:50:45.307Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 2,
+  "fields": {
+    "message": 2,
+    "user": 1
+  }
+}
+]
